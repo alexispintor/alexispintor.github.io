@@ -1,0 +1,635 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.inicioPag{
+    position: absolute;
+    left: 25%;
+    right: 75%;
+}
+
+.Encabezado {
+    width: 1440px;
+    height: 100px;
+    position: relative;
+}
+
+.Rectangle1 {
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #1A0341;
+}
+
+.Inicio, .Portafolio, .Contacto {
+    width: 166px;
+    height: 51px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Fondamento;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Inicio {
+    left: 777px;
+    top: 23px;
+}
+
+.Portafolio {
+    left: 943px;
+    top: 23px;
+}
+
+.Contacto {
+    left: 1131px;
+    top: 25px;
+}
+
+.Line30 {
+    width: 84.06px;
+    height: 0px;
+    left: 818px;
+    top: 74px;
+    position: absolute;
+    border: 5px white solid;
+}
+
+.Ellipse6 {
+    width: 70px;
+    height: 70px;
+    left: 37px;
+    top: 13px;
+    position: absolute;
+    border-radius: 9999px;
+}
+
+.Opciones {
+    width: 70.17px;
+    height: 36px;
+    left: 1344.94px;
+    top: 30.50px;
+    position: absolute;
+}
+
+.Line40, .Line50, .Line60 {
+    position: absolute;
+    border: 2px white solid;
+}
+
+.Line40 {
+    width: 70.11px;
+    height: 0px;
+    left: 0px;
+    top: 0px;
+}
+
+.Line60 {
+    width: 70.11px;
+    height: 0px;
+    left: 0.06px;
+    top: 36px;
+}
+
+.Line50 {
+    width: 65px;
+    height: 0px;
+    left: 2.06px;
+    top: 18px;
+}
+
+.Presentaciontextimgs {
+    width: 1440px;
+    height: 820px;
+    position: relative;
+}
+
+.LogoUni {
+    width: 638px;
+    height: 241px;
+    left: 712px;
+    top: 572px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.Verificado {
+    width: 93px;
+    height: 93px;
+    left: 506px;
+    top: 646px;
+    position: absolute;
+    background: linear-gradient(0deg, #D9D9D9 0%, #D9D9D9 100%);
+}
+
+.Nombre {
+    width: 418px;
+    height: 127px;
+    left: 83px;
+    top: 633px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 96px;
+    font-family: Inter;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+.Titulocarrera {
+    width: 355px;
+    height: 93px;
+    left: 116px;
+    top: 727px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: Karma;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.Portada {
+    width: 1440px;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    border: 3px white solid;
+}
+
+.Perfil {
+    width: 260px;
+    height: 260px;
+    left: 163px;
+    top: 369px;
+    position: absolute;
+    border-radius: 9999px;
+    border: 8px white solid;
+}
+
+
+
+
+
+.Cuerpotextb {
+    width: 1440px;
+    height: 2021px;
+    position: relative;
+}
+
+.Cuerpo {
+    width: 1440px;
+    height: 2021px;
+    position: absolute;
+    background: #C5C4CA;
+    border: 4px black solid;
+}
+
+.Basics {
+    width: 701px;
+    height: 1979px;
+    position: absolute;
+    left: 11px;
+    top: 18px;
+}
+
+.Cuerpobasics {
+    width: 684px;
+    height: 1979px;
+    position: absolute;
+    left: 17px;
+    top: 0px;
+    background: #488D9C;
+    border: 4px black solid;
+}
+
+.Preview {
+    width: 677px;
+    height: 354px;
+    position: absolute;
+    left: 0px;
+    top: 1390px;
+}
+
+.Rectangle7 {
+    width: 540px;
+    height: 99px;
+    position: absolute;
+    left: 34px;
+    top: 0px;
+    background: #FDFDFD;
+    border: 5px black solid;
+}
+
+.Rectangle6 {
+    width: 616px;
+    height: 255px;
+    position: absolute;
+    left: 61px;
+    top: 99px;
+    background: white;
+    border: 3px black solid;
+}
+
+.Img2, .Img1 {
+    width: 156px;
+    height: 156px;
+    position: absolute;
+}
+
+.Img2 {
+    left: 126px;
+    top: 136px;
+}
+
+.Img1 {
+    left: 412px;
+    top: 136px;
+}
+
+.Pdf, .Jpeg, .Flecha, .Portafoliotext {
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-family: Karma;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.Pdf, .Jpeg {
+    width: 150px;
+    height: 45px;
+    font-size: 40px;
+}
+
+.Pdf {
+    left: 130px;
+    top: 290px;
+}
+
+.Jpeg {
+    left: 420px;
+    top: 292px;
+}
+
+.Flecha {
+    width: 53px;
+    height: 117px;
+    left: 590px;
+    top: 140px;
+    font-size: 128px;
+    font-family: Kosugi;
+    font-weight: 400;
+}
+
+.Portafoliotext {
+    width: 612px;
+    height: 80px;
+    left: 0px;
+    top: 10px;
+    font-size: 40px;
+}
+
+.Habilidades {
+    width: 660px;
+    height: 80px;
+    position: absolute;
+    left: 25.60px;
+    top: 710px;
+
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: Karma;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.Habilidadestext{
+    width: 660px;
+    height: 80px;
+    position: absolute;
+    left: 25.60px;
+    top: 10px;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: Karma;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.Rectangle5 {
+    width: 580.75px;
+    height: 99px;
+    position: absolute;
+    left: 36.57px;
+    top: 0px;
+    background: #FDFDFD;
+    border: 5px black solid;
+}
+
+.Line1 {
+    width: 440px;
+    height: 0px;
+    position: absolute;
+    left: 49.47px;
+    top: 100px;
+    transform: rotate(90.28deg);
+    transform-origin: 0 0;
+    border: 4px black solid;
+}
+
+.Line3 {
+    width: 440px;
+    height: 0px;
+    position: absolute;
+    left: 86.04px;
+    top: 100px;
+    transform: rotate(90.28deg);
+    transform-origin: 0 0;
+    border: 4px black solid;
+}
+
+.Habilidadeslist {
+    width: 360.28px;
+    height: 371px;
+    position: absolute;
+    left: 171px;
+    top: 130px;
+    color: black;
+    font-size: 24px;
+    font-family: Karma;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.Contactodata {
+    width: 580.75px;
+    height: 537.99px;
+    position: absolute;
+    left: 56.79px;
+    top: 33px;
+}
+
+.Rectangle3 {
+    width: 580.75px;
+    height: 99px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #FDFDFD;
+    border: 5px black solid;
+}
+
+.Contactotexto {
+    width: 556.02px;
+    height: 80px;
+    position: absolute;
+    left: 5.38px;
+    top: 10px;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: Karma;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.Logotel, .Logocorreo, .Logopag {
+    width: 102.17px;
+    height: 95px;
+    position: absolute;
+    border-radius: 9999px;
+}
+
+.Logotel {
+    left: 89.26px;
+    top: 122px;
+    border: 5px black solid;
+}
+
+.Logocorreo {
+    left: 89.26px;
+    top: 270px;
+    border: 5px black solid;
+}
+
+.Logopag {
+    left: 89.26px;
+    top: 418px;
+    border: 6px black solid;
+}
+
+.Numero, .Sitioweb, .Correo {
+    width: 329.09px;
+    height: 83px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Karma;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.Numero {
+    left: 245.21px;
+    top: 128px;
+}
+
+.Sitioweb {
+    left: 231.23px;
+    top: 424px;
+}
+
+.Correo {
+    left: 231.23px;
+    top: 272px;
+}
+
+
+.AcercaDeMi {
+    width: 614px;
+    height: 938px;
+    position: relative;
+    left: 800px;
+    top: 50px;
+}
+
+.TituloAcercaDeMi {
+    width: 480px;
+    height: 102px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    color: black;
+    font-size: 46px;
+    font-family: Karma;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.TextoAcercaDeMi {
+    width: 550px;
+    height: 816px;
+    left: 7px;
+    top: 122px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Khmer;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+
+
+.Experiencia, .Dms, .Like {
+    position: relative;
+    left: 800px;
+}
+
+.Experiencia {
+    width: 606px;
+    height: 301px;
+    top: 100px;
+}
+
+.ExperienciaLaboral {
+    width: 551px;
+    height: 102px;
+    color: black;
+    font-size: 46px;
+    font-family: Karma;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.Experienciatext {
+    width: 573px;
+    height: 194px;
+    color: black;
+    font-size: 24px;
+    font-family: Karma;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.Dms {
+    width: 636px;
+    height: 280px;
+    position: relative;
+    top: 170px;
+    left: 750px;
+}
+
+.Rectangle10 {
+    width: 540px;
+    height: 99px;
+    left: 34px;
+    top: 0px;
+    position: absolute;
+    background: #FDFDFD;
+    border: 5px black solid;
+}
+
+.Textdms {
+    width: 575px;
+    height: 181px;
+    left: 61px;
+    top: 99px;
+    position: absolute;
+    background: white;
+    border: 3px black solid;
+}
+
+.Dmstitulo {
+    width: 612px;
+    height: 80px;
+    left: 0px;
+    top: 10px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: Karma;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.Likebuttons {
+    width: 381px;
+    height: 151px;
+    position: relative;
+    left: 900px;
+    top: 300px;
+}
+
+.Line6 {
+    width: 151px;
+    height: 0px;
+    left: 190.50px;
+    top: 0px;
+    position: absolute;
+    transform: rotate(89.62deg);
+    transform-origin: 0 0;
+    border: 5px black solid;
+}
+
+.Dislike {
+    width: 181px;
+    height: 128px;
+    left: 200px;
+    top: 11px;
+    position: absolute;
+}
+
+.Like {
+    width: 181px;
+    height: 128px;
+    left: 0px;
+    top: 11px;
+    position: absolute;
+}
+
+
+
+
+.PieDePagina {
+    width: 1440px;
+    height: 200px;
+    position: relative;
+}
+
+.Rectangle15 {
+    width: 1440px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #04001A;
+}
+
+.Copyright {
+    width: 734px;
+    height: 84px;
+    left: 338px;
+    top: 80px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Karma;
+    font-weight: 700;
+    word-wrap: break-word;
+}
