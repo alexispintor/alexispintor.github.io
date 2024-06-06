@@ -5,12 +5,14 @@ body {
     display: flex;
     flex-direction: column;
     left: 100px;
+    background-color: #130e0e;
 }
 
 .ContactoPag{
     position: relative;
     width: 1440;
     margin: 0 auto;
+    box-shadow: 8.5px 8.5px 8.5px;
 }
 
 .Encabezado {
@@ -51,6 +53,11 @@ body {
     font-family: Fondamento;
     font-weight: 400;
     word-wrap: break-word;  
+}
+
+.boton:hover{
+    
+    background: #555;
 }
 
 .inicioboton {
@@ -121,4 +128,473 @@ body {
     height: 0px;
     left: 2.06px;
     top: 18px;
+}
+
+
+
+.Datoscontact {
+    width: 1440px;
+    height: 681px;
+    position: relative;
+}
+
+.Rectangle24 {
+    width: 1440px;
+    height: 681px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #0D0022;
+}
+
+.Rectangle25 {
+    width: 957px;
+    height: 486px;
+    left: 241px;
+    top: 97px;
+    position: absolute;
+    background: white;
+}
+
+.Framedata {
+    width: 773.57px;
+    height: 338.06px;
+    left: 335px;
+    top: 160px;
+    position: absolute;
+}
+
+.Foto {
+    width: 265.03px;
+    height: 316.17px;
+    padding: 12.19px;
+    left: 509.56px;
+    top: 0px;
+    position: absolute;
+    transform: rotate(5deg);
+    transform-origin: 0 0;
+    background: linear-gradient(0deg, white 0%, white 100%);
+    box-shadow: 0px 0.7615708112716675px 3.04628324508667px rgba(0, 0, 0, 0.10);
+    border-radius: 4.57px;
+    overflow: hidden;
+    border: 0.76px #E0E0E0 solid;
+    background-image: url('papel.avif');
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 9.14px;
+    display: inline-flex;
+}
+
+.Rectangle {
+    width: 240.66px;
+    height: 240.66px;
+    box-shadow: 0px 0px 3.04628324508667px 1.523141622543335px rgba(0, 0, 0, 0.15) inset;
+    margin: 0 auto;
+}
+
+.Frame {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.AlexisPintor {
+    width: 240.66px;
+    height: 42px;
+    text-align: center;
+    color: #1E1E1E;
+    font-size: 24.37px;
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Data {
+    width: 375px;
+    height: 312px;
+    left: 0px;
+    top: 13px;
+    position: absolute;
+}
+
+.DatosDeContacto {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    color: #1E1E1E;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 48px;
+    word-wrap: break-word;
+}
+
+.Redessociales {
+    width: 366px;
+    height: 247px;
+    left: 9px;
+    top: 65px;
+    position: absolute;
+}
+
+.Instagram, .TikTok, .Correo, .WhatsApp {
+    width: 296px;
+    height: 49px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: 'Inria Serif', serif;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+
+.Instagram {
+    left: 70px;
+    top: 20px;
+}
+
+.TikTok {
+    left: 70px;
+    top: 86px;
+}
+
+.Correo {
+    left: 70px;
+    top: 152px;
+}
+
+.WhatsApp {
+    left: 70px;
+    top: 218px;
+}
+
+.Iconoinstagram, .Iconotiktok, .Iconocorreo, .Iconowhatsapp {
+    width: 49px;
+    height: 49px;
+    position: absolute;
+    
+}
+
+.iconos{
+    width: 49px;
+    height: 49px;
+    background: #545252;
+}
+
+.iconos:hover{
+    background-color: #241f1f;
+    cursor: pointer;
+}
+
+.Iconoinstagram {
+    left: 0px;
+    top: 10px;
+}
+
+.Iconotiktok {
+    left: 0px;
+    top: 76px;
+}
+
+.Iconocorreo {
+    left: 0px;
+    top: 142px;
+}
+
+.Iconowhatsapp {
+    left: 0px;
+    top: 208px;
+}
+
+
+
+
+.Sectioncolab {
+    width: 1440px;
+    height: 510px;
+    position: relative;
+}
+
+.Barras {
+    width: 1440px;
+    height: 510px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.Rectangle26 {
+    width: 1440px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #9D9D9D;
+}
+
+.Rectangle28 {
+    width: 1440px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    top: 430px;
+    background: #9D9D9D;
+}
+
+.Rectangle27 {
+    width: 1440px;
+    height: 350px;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    background: #0D0022;
+}
+
+.Imgblur {
+    width: 1009px;
+    height: 450px;
+    position: absolute;
+    left: 215px;
+    top: 30px;
+}
+
+.Rectangle29 {
+    width: 290px;
+    height: 290px;
+    position: absolute;
+    left: 0;
+    top: 80px;
+}
+
+.Rectangle30 {
+    width: 290px;
+    height: 290px;
+    position: absolute;
+    left: 719px;
+    top: 80px;
+    object-fit: cover;
+}
+
+.Rectangle31 {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    left: 280px;
+    top: 0;
+}
+
+.Colabtitle {
+    width: 724px;
+    height: 178px;
+    position: absolute;
+    left: 358px;
+    top: 166px;
+}
+
+.Rectangle32 {
+    width: 724px;
+    height: 178px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(157, 157, 157, 0.45);
+}
+
+.Colabtext {
+    width: 721px;
+    height: 178px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: 'Inria Serif', serif;
+    font-weight: 400;
+    line-height: 90px;
+    word-wrap: break-word;
+}
+
+
+
+
+.Asksection {
+    width: 1440px;
+    height: 620px;
+    position: relative;
+}
+
+.Rectanglecontacto {
+    width: 1440px;
+    height: 620px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #1A0341;
+}
+
+.Contactdata {
+    width: 900px;
+    height: 479px;
+    left: 495px;
+    top: 57px;
+    position: absolute;
+    background: white;
+    z-index: 1;
+}
+
+.Contactarme {
+    width: 473px;
+    height: 285px;
+    left: 4px;
+    top: 140px;
+    position: absolute;
+}
+
+.Textocontactame {
+    width: 473px;
+    height: 210px;
+    left: 0px;
+    top: 100px;
+    position: absolute;
+}
+
+.Text3 {
+    width: 336px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Karma, sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.Text2 {
+    width: 336px;
+    height: 70px;
+    left: 137px;
+    top: 70px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Karma, sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.Text1 {
+    width: 336px;
+    height: 70px;
+    left: 56px;
+    top: 140px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Karma, sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.Line7 {
+    width: 339.01px;
+    height: 0px;
+    left: 30px;
+    top: 285px;
+    position: absolute;
+    border: 10px white solid;
+}
+
+.Line8 {
+    width: 339.01px;
+    height: 0px;
+    left: 30px;
+    top: 60px;
+    position: absolute;
+    border: 10px white solid;
+}
+
+
+
+
+
+.contact-form {
+    background: #fff;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    margin: 0 0 15px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #555;
+}
+
+
+
+
+
+.PieDePagina {
+    width: 1440px;
+    height: 200px;
+    position: relative;
+}
+
+.Rectangle15 {
+    width: 1440px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #04001A;
+}
+
+.Copyright {
+    width: 734px;
+    height: 84px;
+    left: 338px;
+    top: 80px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Karma;
+    font-weight: 700;
+    word-wrap: break-word;
 }

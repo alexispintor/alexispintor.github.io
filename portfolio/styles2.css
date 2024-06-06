@@ -5,12 +5,14 @@ body {
     display: flex;
     flex-direction: column;
     left: 100px;
+    background-color: #1E1E1E;
 }
 
 .PortafolioPag{
     position: relative;
     width: 1440px;
     margin: 0 auto;
+    box-shadow: 8.5px 8.5px 8.5px;
 }
 
 .Encabezado {
@@ -51,6 +53,11 @@ body {
     font-family: Fondamento;
     font-weight: 400;
     word-wrap: break-word;  
+}
+
+.boton:hover{
+    
+    background: #555;
 }
 
 .inicioboton {
@@ -131,13 +138,21 @@ body {
     position: relative;
 }
 
+.Rectangle34 {
+    width: 1440px;
+    height: 806px;
+    left: 0px;
+    top: 2px;
+    position: absolute;
+    background: #74706F;
+}
+
 .Rectangle16 {
     width: 1440px;
     height: 808px;
     left: 0px;
     top: 0px;
     position: absolute;
-    box-shadow: 16.6px 16.6px 16.6px;
     filter: blur(7px);
 }
 

@@ -5,12 +5,14 @@ body {
     display: flex;
     flex-direction: column;
     left: 100px;
+    background-color: #737275;
 }
 
 .inicioPag{
     position: relative;
     width: 1440px;
     margin: 0 auto;
+    box-shadow: 8.5px 8.5px 8.5px;
 }
 
 .Encabezado {
@@ -51,6 +53,11 @@ body {
     font-family: Fondamento;
     font-weight: 400;
     word-wrap: break-word;  
+}
+
+.boton:hover{
+    
+    background: #555;
 }
 
 .inicioboton {
@@ -181,7 +188,6 @@ body {
     left: 0px;
     top: 0px;
     position: absolute;
-    border: 3px white solid;
     object-fit: cover;
 }
 
@@ -193,6 +199,15 @@ body {
     position: absolute;
     border-radius: 9999px;
     border: 8px white solid;
+}
+
+.Rectangle33 {
+    width: 1440px;
+    height: 341px;
+    left: 0px;
+    top: 500px;
+    position: absolute;
+    background: white;
 }
 
 
@@ -301,13 +316,16 @@ body {
 }
 
 .Flecha {
-    width: 53px;
-    height: 117px;
     left: 590px;
-    top: 140px;
+    top: 145px;
     font-size: 128px;
     font-family: Kosugi;
     font-weight: 400;
+    cursor: pointer;
+}
+
+.Flecha:hover{
+    background-color: #C5C4CA;
 }
 
 .Portafoliotext {
@@ -551,7 +569,7 @@ body {
     left: 750px;
 }
 
-.Rectangle10 {
+.Rectangle10{
     width: 540px;
     height: 99px;
     left: 34px;
@@ -561,14 +579,19 @@ body {
     border: 5px black solid;
 }
 
-.Textdms {
+#Textdms {
     width: 575px;
     height: 181px;
     left: 61px;
     top: 99px;
+    font-size: x-large;
     position: absolute;
     background: white;
     border: 3px black solid;
+}
+
+#Textdms::placeholder {
+    color: #555;
 }
 
 .Dmstitulo {
@@ -610,6 +633,7 @@ body {
     left: 200px;
     top: 15px;
     position: absolute;
+    cursor: pointer;
 }
 
 .Like {
@@ -618,6 +642,7 @@ body {
     left: 0px;
     top: 15px;
     position: absolute;
+    cursor: pointer;
 }
 
 
