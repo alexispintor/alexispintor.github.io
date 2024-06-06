@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    left: 100px;
+}
+
+.ContactoPag{
+    position: relative;
+    width: 1440;
+    margin: 0 auto;
+}
+
+.Encabezado {
+    width: 1440px;
+    height: 100px;
+    position: relative;
+}
+
+.Rectangle1 {
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #1A0341;
+}
+
+.botones {
+    width: 500px;
+    height: 51px;
+    position: relative;
+    left: 780px;
+    
+}
+
+.boton{
+    background-color:grey;
+    position: absolute;
+    height: 51px;
+    width: 166px;
+    cursor: pointer;
+    z-index: 3;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Fondamento;
+    font-weight: 400;
+    word-wrap: break-word;  
+}
+
+.inicioboton {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+
+.portafolioboton{
+    position: absolute;
+    left: 193px;
+    top: 20px;
+}
+
+.contactoboton {
+    position: absolute;
+    left: 376px;
+    top: 20px;
+}
+
+.Line30 {
+    width: 100px;
+    height: 0px;
+    left: 1180px;
+    top: 80px;
+    position: absolute;
+    border: 5px white solid;
+}
+
+.Ellipse6 {
+    width: 70px;
+    height: 70px;
+    left: 37px;
+    top: 13px;
+    position: absolute;
+    border-radius: 9999px;
+}
+
+.Opciones {
+    width: 70.17px;
+    height: 36px;
+    left: 1344.94px;
+    top: 30.50px;
+    position: absolute;
+}
+
+.Line40, .Line50, .Line60 {
+    position: absolute;
+    border: 2px white solid;
+}
+
+.Line40 {
+    width: 70.11px;
+    height: 0px;
+    left: 0px;
+    top: 0px;
+}
+
+.Line60 {
+    width: 70.11px;
+    height: 0px;
+    left: 0.06px;
+    top: 36px;
+}
+
+.Line50 {
+    width: 65px;
+    height: 0px;
+    left: 2.06px;
+    top: 18px;
+}

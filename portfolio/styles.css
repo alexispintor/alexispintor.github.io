@@ -4,12 +4,13 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    left: 100px;
 }
 
 .inicioPag{
-    position: absolute;
-    left: 25%;
-    right: 75%;
+    position: relative;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .Encabezado {
@@ -27,38 +28,54 @@ body {
     background: #1A0341;
 }
 
-.Inicio, .Portafolio, .Contacto {
-    width: 166px;
+.botones {
+    width: 500px;
     height: 51px;
+    position: relative;
+    left: 780px;
+    
+}
+
+.boton{
+    background-color:grey;
     position: absolute;
+    height: 51px;
+    width: 166px;
+    cursor: pointer;
+    z-index: 3;
+    border: none;
+    text-decoration: none;
     text-align: center;
     color: white;
     font-size: 24px;
     font-family: Fondamento;
     font-weight: 400;
-    word-wrap: break-word;
+    word-wrap: break-word;  
 }
 
-.Inicio {
-    left: 777px;
-    top: 23px;
+.inicioboton {
+    position: absolute;
+    left: 10px;
+    top: 20px;
 }
 
-.Portafolio {
-    left: 943px;
-    top: 23px;
+.portafolioboton{
+    position: absolute;
+    left: 193px;
+    top: 20px;
 }
 
-.Contacto {
-    left: 1131px;
-    top: 25px;
+.contactoboton {
+    position: absolute;
+    left: 376px;
+    top: 20px;
 }
 
 .Line30 {
-    width: 84.06px;
+    width: 100px;
     height: 0px;
     left: 818px;
-    top: 74px;
+    top: 80px;
     position: absolute;
     border: 5px white solid;
 }
@@ -131,14 +148,14 @@ body {
 }
 
 .Nombre {
-    width: 418px;
+    width: 700px;
     height: 127px;
-    left: 83px;
+    left: 80px;
     top: 633px;
     position: absolute;
-    text-align: center;
+    text-align: left;
     color: black;
-    font-size: 96px;
+    font-size: 80px;
     font-family: Inter;
     font-weight: 300;
     word-wrap: break-word;
