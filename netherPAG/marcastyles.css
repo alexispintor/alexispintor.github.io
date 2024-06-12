@@ -1,0 +1,393 @@
+.container{
+    width: 1440px;
+    height: 1695px;
+    position: relative;
+    margin: auto;
+}
+
+.Encabezadob {
+    width: 1440px;
+    height: 121px;
+    position: relative;
+    top: -15px;
+}
+
+.Rectangle52 {
+    width: 1440px;
+    height: 121px;
+    position: absolute;
+    background: #1B0859;
+}
+
+.Apple{
+width: 170px; 
+height: 66px; 
+left: 121px; 
+top: 35px; 
+position: absolute; 
+text-align: center; 
+color: white; 
+font-size: 40px; 
+font-family: Orbitron; 
+font-weight: 600; 
+word-wrap: break-word
+}
+
+.Rectangle54 {
+    width: 50px;
+    height: 50px;
+    left: 1359px;
+    top: 35px;
+    position: absolute;
+}
+
+.iconos{
+    background-color: #04001A;
+    cursor: pointer;
+  }
+
+  .iconos:hover{
+    background-color: #001EB9;
+  }
+
+.Busqueda {
+    width: 725px;
+    height: 32px;
+    left: 539px;
+    top: 45px;
+    position: absolute;
+}
+
+.Rectangle55 {
+    width: 725px;
+    height: 32px;
+    position: absolute;
+    background: white;
+    border-radius: 30px;
+}
+
+.Rectangle53 {
+    width: 20px;
+    height: 20px;
+    left: 680px;
+    top: 0px;
+    position: absolute;
+}
+
+.Iconoregreso {
+    width: 50px;
+    height: 68px;
+    left: 30px;
+    top: 30px;
+    position: absolute;
+    color: white;
+}
+
+.iconoregresar{
+    width: 49px;
+    height: 49px;
+    background: #545252;
+}
+
+.iconoregresar:hover{
+    background-color: #241f1f;
+    cursor: pointer;
+}
+
+.listaProductos{
+    position: relative;
+    top: 15px;
+}
+
+.Productlist1 {
+    width: 1377px;
+    height: 258px;
+    position: relative;
+    margin: auto;
+}
+
+.Contproduct1 {
+    width: 1377px;
+    height: 258px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    border: 2px #1B0859 solid;
+}
+
+.Imgproduct1 {
+    width: 250px;
+    height: 200px;
+    left: 17px;
+    top: 30px;
+    position: absolute;
+    border: 4px #1B0859 solid;
+}
+
+.Nombreproducto1 {
+    width: 493px;
+    height: 111px;
+    left: 300px;
+    top: 35px;
+    position: absolute;
+    color: black;
+    font-size: 22px;
+    font-family: Orbitron;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.Descripcionproduct1 {
+    width: 493px;
+    height: 76px;
+    left: 300px;
+    top: 155px;
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: Orbitron;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Precioproduct1 {
+    width: 314px;
+    height: 96px;
+    left: 1063px;
+    top: 90px;
+    position: absolute;
+    color: #FFF500;
+    font-size: 52px;
+    font-family: Orbitron;
+    font-weight: 616;
+    word-wrap: break-word;
+}
+
+.Productlist2 {
+    width: 1377px;
+    height: 258px;
+    position: relative;
+    top: 35px;
+    margin: auto;
+}
+
+.Contproduct2 {
+    width: 1377px;
+    height: 258px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    border: 2px #1B0859 solid;
+}
+
+.Imgproduct2 {
+    width: 250px;
+    height: 200px;
+    left: 17px;
+    top: 30px;
+    position: absolute;
+    border: 4px #1B0859 solid;
+}
+
+.Nombreproducto2 {
+    width: 493px;
+    height: 111px;
+    left: 300px;
+    top: 35px;
+    position: absolute;
+    color: black;
+    font-size: 22px;
+    font-family: Orbitron;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.Descripcionproduct2 {
+    width: 493px;
+    height: 76px;
+    left: 300px;
+    top: 155px;
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: Orbitron;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Precioproduct2 {
+    width: 314px;
+    height: 96px;
+    left: 1063px;
+    top: 90px;
+    position: absolute;
+    color: #FFF500;
+    font-size: 52px;
+    font-family: Orbitron;
+    font-weight: 616;
+    word-wrap: break-word;
+}
+
+.Productlist3 {
+    width: 1377px;
+    height: 258px;
+    position: relative;
+    top: 70px;
+    margin: auto;
+}
+
+.Contproduct3 {
+    width: 1377px;
+    height: 258px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    border: 2px #1B0859 solid;
+}
+
+.Imgproduct3 {
+    width: 250px;
+    height: 200px;
+    left: 17px;
+    top: 30px;
+    position: absolute;
+    border: 4px #1B0859 solid;
+}
+
+.Nombreproducto3 {
+    width: 493px;
+    height: 111px;
+    left: 300px;
+    top: 35px;
+    position: absolute;
+    color: black;
+    font-size: 22px;
+    font-family: Orbitron;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.Descripcionproduct3 {
+    width: 493px;
+    height: 76px;
+    left: 300px;
+    top: 155px;
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: Orbitron;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Precioproduct3 {
+    width: 314px;
+    height: 96px;
+    left: 1063px;
+    top: 90px;
+    position: absolute;
+    color: #FFF500;
+    font-size: 52px;
+    font-family: Orbitron;
+    font-weight: 616;
+    word-wrap: break-word;
+}
+
+.Productlist4 {
+    width: 1377px;
+    height: 258px;
+    position: relative;
+    top: 105px;
+    margin: auto;
+}
+
+.Contproduct4 {
+    width: 1377px;
+    height: 258px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    border: 2px #1B0859 solid;
+}
+
+.Imgproduct4 {
+    width: 250px;
+    height: 200px;
+    left: 17px;
+    top: 30px;
+    position: absolute;
+    border: 4px #1B0859 solid;
+}
+
+.Nombreproducto4 {
+    width: 493px;
+    height: 111px;
+    left: 300px;
+    top: 35px;
+    position: absolute;
+    color: black;
+    font-size: 22px;
+    font-family: Orbitron;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.Descripcionproduct4 {
+    width: 493px;
+    height: 76px;
+    left: 300px;
+    top: 155px;
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: Orbitron;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Precioproduct4 {
+    width: 314px;
+    height: 96px;
+    left: 1063px;
+    top: 90px;
+    position: absolute;
+    color: #FFF500;
+    font-size: 52px;
+    font-family: Orbitron;
+    font-weight: 616;
+    word-wrap: break-word;
+}
+
+.PieDePagina {
+    width: 1440px;
+    height: 200px;
+    position: relative;
+    top: 155px;
+}
+
+.Rectangle15 {
+    width: 1440px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #04001A;
+}
+
+.Copyright {
+    width: 734px;
+    height: 84px;
+    left: 338px;
+    top: 61px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Karma;
+    font-weight: 700;
+    word-wrap: break-word;
+}

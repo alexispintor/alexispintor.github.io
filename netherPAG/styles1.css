@@ -1,0 +1,643 @@
+
+.container{
+    width: 1440px;
+    height: 4296px;
+    position: relative;
+    margin: auto;
+}
+
+.header {
+    width: 1440px;
+    height: 100px;
+    top: -10px;
+    position: absolute;
+  }
+  
+  .header_box {
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #1B0859;
+  }
+  
+  .login-box {
+    width: 190px;
+    height: 60px;
+    left: 49px;
+    top: 17px;
+    position: absolute;
+  }
+  
+  .login-background {
+    width: 190px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #001EB9;
+  }
+  
+  .login-text {
+    width: 190px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+  }
+  
+  .login-title {
+    color: white;
+    font-size: 36px;
+    font-family: Orbitron;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .login-subtitle {
+    color: white;
+    font-size: 15px;
+    font-family: Orbitron;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    right: 100px;
+    
+  }
+  
+  .icon:first-of-type {
+    left: 1100px;
+  }
+  
+  .right-icon {
+    left: 1359px;
+  }
+  
+  .iconos{
+    background-color: #04001A;
+    cursor: pointer;
+  }
+
+  .iconos:hover{
+    background-color: #001EB9;
+  }
+
+.usuariosB{
+  width: 245px;
+    height: 84px;
+    background-color: #036cf4;
+    position: relative;
+    top: -10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-family: Orbitron;
+    font-weight: 700;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+
+
+
+
+
+  .image-container {
+    width: 1440px;
+    height: 631px;
+    position: absolute;
+    top: 100px;
+  }
+  
+  .background-image {
+    width: 1440px;
+    height: 631px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    box-shadow: 18.1px 18.1px 18.1px;
+    filter: blur(7px);
+  }
+  
+  .foreground-image {
+    width: 1052px;
+    height: 504px;
+    left: 194px;
+    top: 62px;
+    position: absolute;
+    border-radius: 20px;
+  }
+  
+  .arrows {
+    width: 1326px;
+    height: 138px;
+    left: 57px;
+    top: 246px;
+    position: absolute;
+  }
+  
+  .arrow-left, .arrow-right {
+    width: 97px;
+    height: 137px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 128px;
+    font-family: Poor Story;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .arrow-left {
+    left: 0px;
+    top: 0px;
+  }
+  
+  .arrow-right {
+    left: 1229px;
+    top: 1px;
+  }
+
+  .header-container {
+    width: 1440px;
+    height: 82px;
+    position: relative;
+    top: 745px;
+  }
+  
+  .header-background {
+    width: 1440px;
+    height: 81px;
+    position: absolute;
+    background: #C80000;
+    top: 1px;
+    left: 0;
+  }
+  
+  .timer-right, .timer-left {
+    width: 242px;
+    height: 67px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Orbitron;
+    font-weight: 400;
+    word-wrap: break-word;
+    top: 7px;
+  }
+  
+  .timer-right {
+    left: 1134px;
+    top: 40px;
+  }
+  
+  .timer-left {
+    left: 85px;
+    top: 40px;
+  }
+  
+  .highlight-title {
+    width: 754px;
+    height: 81px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 56px;
+    font-family: Orbitron;
+    font-weight: 400;
+    word-wrap: break-word;
+    top: 10px;
+    left: 343px;
+  }
+  
+  .products-container {
+    width: 1440px;
+    height: 1155px;
+    position: relative;
+    top: 745px;
+  }
+  
+  .products-background {
+    width: 1440px;
+    height: 1200px;
+    position: absolute;
+    background: #1B0859;
+    top: 0;
+    left: 0;
+  }
+  
+  .product {
+    width: 368px;
+    height: 505px;
+    position: absolute;
+  }
+  
+  .product:nth-child(2) {
+    left: 85px;
+    top: 21px;
+  }
+  
+  .product:nth-child(3) {
+    left: 536px;
+    top: 21px;
+  }
+  
+  .product:nth-child(4) {
+    left: 987px;
+    top: 21px;
+  }
+  
+  .product:nth-child(5) {
+    left: 87px;
+    top: 547px;
+  }
+  
+  .product:nth-child(6) {
+    left: 538px;
+    top: 547px;
+  }
+  
+  .product:nth-child(7) {
+    left: 989px;
+    top: 547px;
+  }
+  
+  .product-image {
+    width: 367px;
+    height: 290px;
+    position: absolute;
+    border: 8px black solid;
+    left: 1px;
+    top: 0px;
+  }
+  
+  .product-title {
+    width: 367px;
+    height: 63px;
+    position: absolute;
+    color: white;
+    font-size: 22px;
+    font-family: Orbitron;
+    font-weight: 400;
+    word-wrap: break-word;
+    top: 315px;
+    left: 0;
+  }
+  
+  .product-price-old {
+    width: 149px;
+    height: 51px;
+    position: absolute;
+    color: #FF0000;
+    font-size: 24px;
+    font-family: Orbitron;
+    font-weight: 616;
+    word-wrap: break-word;
+    top: 380px;
+    left: 2px;
+  }
+  
+  .product-price-new {
+    width: 237px;
+    height: 96px;
+    position: absolute;
+    color: #FFF500;
+    font-size: 39px;
+    font-family: Orbitron;
+    font-weight: 616;
+    word-wrap: break-word;
+    top: 409px;
+    left: 1px;
+  }
+  
+  .offer-button-container {
+    width: 496px;
+    height: 72px;
+    position: absolute;
+    left: 472px;
+    top: 1078px;
+  }
+  
+  .offer-button-background {
+    position: absolute;
+    border-radius: 15px;
+    top: 0;
+    left: 0;
+  }
+  
+  .offer-button-text {
+    width: 496px;
+    height: 51px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Orbitron;
+    font-weight: 700;
+    word-wrap: break-word;
+    top: 20px;
+    left: 0;
+  }
+  
+  .Imgsmarcas {
+    width: 1440px;
+    height: 754px;
+    position: relative;
+    top: 870px;
+}
+
+.Rectangle49 {
+    width: 1440px;
+    height: 754px;
+    position: absolute;
+    background: #1B0859;
+}
+
+.Rectangle19, .Rectangle23, .Rectangle27, .Rectangle20, .Rectangle24, .Rectangle28, .Rectangle21, .Rectangle25, .Rectangle29, .Rectangle22, .Rectangle26, .Rectangle30 {
+    width: 258px;
+    height: 140px;
+    position: absolute;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.marcas{
+  cursor: pointer;
+}
+
+.Rectangle19 { left: 151px; top: 73px; }
+.Rectangle23 { left: 151px; top: 307px; }
+.Rectangle27 { left: 151px; top: 541px; background: linear-gradient(0deg, white 0%, white 100%); }
+.Rectangle20 { left: 452px; top: 73px; background: linear-gradient(0deg, white 0%, white 100%); }
+.Rectangle24 { left: 452px; top: 307px; background: linear-gradient(0deg, white 0%, white 100%); }
+.Rectangle28 { left: 452px; top: 541px; background: linear-gradient(0deg, white 0%, white 100%); }
+.Rectangle21 { left: 753px; top: 73px; background: linear-gradient(0deg, white 0%, white 100%); }
+.Rectangle25 { left: 753px; top: 307px; background: linear-gradient(0deg, white 0%, white 100%); }
+.Rectangle29 { left: 753px; top: 541px; background: linear-gradient(0deg, white 0%, white 100%); }
+.Rectangle22 { left: 1053px; top: 73px; background: linear-gradient(0deg, white 0%, white 100%); }
+.Rectangle26 { left: 1053px; top: 307px; background: linear-gradient(0deg, white 0%, white 100%); }
+.Rectangle30 { left: 1053px; top: 541px; background: linear-gradient(0deg, white 0%, white 100%); }
+
+.Titulomarcas {
+    width: 1440px;
+    height: 81px;
+    position: relative;
+    top: 35px;
+}
+
+.Rectangle17 {
+    width: 1440px;
+    height: 81px;
+    position: absolute;
+    background: black;
+}
+
+.Marcas {
+    width: 754px;
+    height: 81px;
+    left: 343px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 56px;
+    font-family: Orbitron;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Imgsproducts {
+    width: 1440px;
+    height: 729px;
+    position: relative;
+    top: 870px;
+}
+
+.Rectangle50 {
+    width: 1440px;
+    height: 729px;
+    position: absolute;
+    background: #1B0859;
+}
+
+.Rectangle38, .Rectangle41, .Rectangle39, .Rectangle42, .Rectangle40, .Rectangle43 {
+    width: 258px;
+    height: 233px;
+    position: absolute;
+    border: 4px white solid;
+}
+
+.Rectangle40 {
+    background: linear-gradient(0deg, black 0%, black 100%);
+}
+
+.Rectangle42 {
+    border: 5px white solid;
+}
+
+.Rectangle38 { left: 968px; top: 82px; }
+.Rectangle41 { left: 968px; top: 421px; }
+.Rectangle39 { left: 194px; top: 82px; }
+.Rectangle42 { left: 194px; top: 421px; }
+.Rectangle40 { left: 581px; top: 82px; }
+.Rectangle43 { left: 581px; top: 421px; }
+
+.Titulocategorias {
+    width: 1440px;
+    height: 82px;
+    position: relative;
+    top: 60px;
+}
+
+.Rectangle31 {
+    width: 1440px;
+    height: 81px;
+    left: 0px;
+    top: 1px;
+    position: absolute;
+    background: black;
+}
+
+.Categorias {
+    width: 754px;
+    height: 81px;
+    left: 343px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 56px;
+    font-family: Orbitron;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.PieDePagina {
+    width: 1440px;
+    height: 200px;
+    position: relative;
+    top: 1268px
+}
+
+.Rectangle15 {
+    width: 1440px;
+    height: 200px;
+    position: absolute;
+    background: #04001A;
+}
+
+.Copyright {
+    width: 734px;
+    height: 84px;
+    left: 338px;
+    top: 61px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Karma;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.Tituloarmapc {
+    width: 1440px;
+    height: 81px;
+    position: relative;
+    top: 587px;
+}
+
+.Rectangle45 {
+    width: 1440px;
+    height: 81px;
+    position: absolute;
+    background: black;
+}
+
+.ArmaTuPc {
+    width: 754px;
+    height: 81px;
+    left: 343px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 56px;
+    font-family: Orbitron;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Contactoarmapc {
+    width: 1440px;
+    height: 403px;
+    position: relative;
+    top: 585px;
+}
+
+.Rectangle51 {
+    width: 1440px;
+    height: 403px;
+    position: absolute;
+    background: #1B0859;
+}
+
+.Rectangle46, .Rectangle47, .Rectangle48 {
+    position: absolute;
+}
+
+.Rectangle46 {
+    width: 496px;
+    height: 60px;
+    left: 214px;
+    top: 100px;
+    background: #D9D9D9;
+    border-radius: 20px;
+}
+
+.Rectangle47 {
+    width: 496px;
+    height: 60px;
+    left: 730px;
+    top: 100px;
+    background: #D9D9D9;
+    border-radius: 20px;
+}
+
+
+
+.Continuar {
+    width: 245px;
+    height: 84px;
+    left: 594px;
+    top: 220px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Orbitron;
+    font-weight: 700;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+.continuarB{
+  width: 245px;
+    height: 84px;
+    background-color: #C80000;
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-family: Orbitron;
+    font-weight: 700;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+
+
+.Nombre, .CorreoElectrNico {
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Orbitron;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.Nombre {
+    width: 109px;
+    height: 60px;
+    left: 256px;
+    top: 117px;
+}
+
+.CorreoElectrNico {
+    width: 262px;
+    height: 60px;
+    left: 766px;
+    top: 117px;
+}
+
+.registro{
+  
+    left: 540px;
+    top: 350px;
+    position: absolute;
+    text-align: center;
+    background-color: skyblue;
+    font-size: 16px;
+    font-family: Orbitron;
+    font-weight: 700;
+    word-wrap: break-word;
+}

@@ -1,0 +1,354 @@
+.container{
+    width: 1440px;
+    height: 2052px;
+    position: relative; 
+    margin: auto;
+}
+
+.EncabezadoU {
+  width: 1440px;
+  height: 121px;
+  position: relative;
+}
+
+.Rectangle52 {
+  width: 1440px;
+  height: 121px;
+  position: absolute;
+  background: #1B0859;
+}
+
+.Usuario {
+  width: 441px;
+  height: 60px;
+  left: 64px;
+  top: 35px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: Orbitron;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.Rectangle54 {
+  width: 50px;
+  height: 50px;
+  left: 1359px;
+  top: 35px;
+  position: absolute;
+}
+
+.iconos{
+  background-color: #04001A;
+  cursor: pointer;
+}
+
+.iconos:hover{
+  background-color: #001EB9;
+}
+
+.Busqueda {
+  width: 725px;
+  height: 32px;
+  left: 539px;
+  top: 45px;
+  position: absolute;
+}
+
+.Rectangle55 {
+  width: 725px;
+  height: 32px;
+  position: absolute;
+  background: white;
+  border-radius: 30px;
+}
+
+.Rectangle53 {
+  width: 20px;
+  height: 20px;
+  left: 680px;
+  top: 0px;
+  position: absolute;
+}
+  
+  .Iconoregreso {
+    width: 50px;
+    height: 68px;
+    left: 30px;
+    top: 30px;
+    position: absolute;
+    color: white;
+}
+
+.iconoregresar{
+    width: 49px;
+    height: 49px;
+    background: #545252;
+}
+
+.iconoregresar:hover{
+    background-color: #241f1f;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+  
+  .Registro {
+    width: 1200px;
+    height: 1540px;
+    top: 35px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .Fondo {
+    width: 1200px;
+    height: 1540px;
+    position: absolute;
+    background: #1B0859;
+    box-shadow: 20px 25px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .Unete {
+    width: 951px;
+    height: 315px;
+    position: absolute;
+    left: 115px;
+    top: 24px;
+  }
+  
+  .CuadroNom, .CuadroPais, .CuadroContra, .CuadroEmail, .CuadroDire, .CuadroApes {
+    position: absolute;
+    background: #D9D9D9;
+    border-radius: 40px;
+  }
+  
+  .CuadroNom {
+    width: 487px;
+    height: 72px;
+    left: 70px;
+    top: 515px;
+  }
+  
+  .CuadroPais {
+    width: 487px;
+    height: 72px;
+    left: 70px;
+    top: 956px;
+  }
+  
+  .CuadroContra {
+    width: 487px;
+    height: 72px;
+    left: 70px;
+    top: 1178px;
+  }
+  
+  .CuadroEmail {
+    width: 1056px;
+    height: 72px;
+    left: 70px;
+    top: 734px;
+  }
+  
+  .CuadroDire {
+    width: 1056px;
+    height: 72px;
+    left: 72px;
+    top: 1397px;
+  }
+  
+  .CuadroApes {
+    width: 487px;
+    height: 72px;
+    left: 639px;
+    top: 515px;
+  }
+  
+  .Nombre, .EMail, .DirecciN, .PaSORegiN, .ContraseA {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: Orbitron, sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+  }
+  
+  .Nombre {
+    width: 197px;
+    height: 70px;
+    left: 70px;
+    top: 445px;
+  }
+  
+  .EMail {
+    width: 176px;
+    height: 70px;
+    left: 71px;
+    top: 660px;
+  }
+  
+  .DirecciN {
+    width: 217px;
+    height: 70px;
+    left: 73px;
+    top: 1323px;
+  }
+  
+  .PaSORegiN {
+    width: 326px;
+    height: 70px;
+    left: 70px;
+    top: 879px;
+  }
+  
+  .ContraseA {
+    width: 326px;
+    height: 70px;
+    left: 55px;
+    top: 1101px;
+  }
+  
+  .NombreCuadro, .MexicoCuadro, .ContraCuadro, .EMailCuadro, .DireCuadro, .ApellidosCuadro {
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Orbitron, sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+  }
+  
+  .NombreCuadro {
+    width: 459px;
+    height: 69px;
+    left: 98px;
+    top: 540px;
+  }
+  
+  .MexicoCuadro {
+    width: 459px;
+    height: 69px;
+    left: 98px;
+    top: 981px;
+  }
+  
+  .ContraCuadro {
+    width: 459px;
+    height: 69px;
+    left: 98px;
+    top: 1206px;
+  }
+  
+  .EMailCuadro {
+    width: 1028px;
+    height: 69px;
+    left: 98px;
+    top: 762px;
+  }
+  
+  .DireCuadro {
+    width: 1028px;
+    height: 69px;
+    left: 100px;
+    top: 1425px;
+  }
+  
+  .ApellidosCuadro {
+    width: 459px;
+    height: 69px;
+    left: 667px;
+    top: 540px;
+  }
+  
+  .Arrow {
+    width: 72px;
+    height: 44px;
+    left: 490px;
+    top: 1028px;
+    position: absolute;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: Orbitron, sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+  }
+  
+  .required {
+    color: #FF0000;
+    font-size: 40px;
+    font-family: Orbitron, sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+  }
+  
+  .PieDePagina {
+    width: 1440px;
+    height: 200px;
+    position: relative;
+    margin: auto;
+    top: 300px;
+  }
+  
+  .Rectangle15 {
+    width: 1440px;
+    height: 200px;
+    position: absolute;
+    background: #04001A;
+  }
+  
+  .Copyright {
+    width: 734px;
+    height: 84px;
+    left: 338px;
+    top: 61px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Karma, sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+  
+  .Enviar {
+    width: 416px;
+    height: 86px;
+    position: relative;
+    margin: auto;
+    top: -70px;
+  }
+  
+  .Rectangle141 {
+    width: 416px;
+    height: 86px;
+    position: absolute;
+    background: #FF0000;
+    border-radius: 15px;
+  }
+  
+  .EnvAr {
+    width: 415px;
+    height: 82px;
+    left: 1px;
+    top: 15px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 46px;
+    font-family: Orbitron, sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+    cursor: pointer;
+  }
+  

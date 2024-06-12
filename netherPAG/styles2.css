@@ -1,0 +1,465 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    left: 100px;
+    background-color: #737275;
+    }
+
+.armaPCpag{
+    position: relative;
+    width: 1440px;
+    margin: 0 auto;
+    box-shadow: 8.5px 8.5px 8.5px;
+}
+
+.Encabezadoarmapc {
+  width: 1440px;
+  height: 121px;
+  position: relative;
+}
+
+.Rectangle52 {
+  width: 1440px;
+  height: 121px;
+  position: absolute;
+  background: #1B0859;
+}
+
+.armaPC {
+  width: 441px;
+  height: 60px;
+  left: 64px;
+  top: 35px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: Orbitron;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.Rectangle54 {
+  width: 50px;
+  height: 50px;
+  left: 1359px;
+  top: 35px;
+  position: absolute;
+}
+
+.iconos{
+  background-color: #04001A;
+  cursor: pointer;
+}
+
+.iconos:hover{
+  background-color: #001EB9;
+}
+
+.Busqueda {
+  width: 725px;
+  height: 32px;
+  left: 539px;
+  top: 45px;
+  position: absolute;
+}
+
+.Rectangle55 {
+  width: 725px;
+  height: 32px;
+  position: absolute;
+  background: white;
+  border-radius: 30px;
+}
+
+.Rectangle53 {
+  width: 20px;
+  height: 20px;
+  left: 680px;
+  top: 0px;
+  position: absolute;
+}
+  
+  .Iconoregreso {
+    width: 50px;
+    height: 68px;
+    left: 30px;
+    top: 30px;
+    position: absolute;
+    color: white;
+}
+
+.iconoregresar{
+    width: 49px;
+    height: 49px;
+    background: #545252;
+}
+
+.iconoregresar:hover{
+    background-color: #241f1f;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+  .Buscadores {
+    width: 1440px;
+    height: 1365px;
+    position: relative;
+  }
+  
+  .Rectangle139 {
+    width: 1440px;
+    height: 1365px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+  }
+  
+  .Mbb, .Graficab, .Procesadorb, .Ramb, .Storageb, .Coolerb, .Caseb, .Psub, .Fanb, .Wiwichusb, .Finalizarproceso {
+    width: 627px;
+    height: 130px;
+    position: absolute;
+  }
+  
+  .Rectangle94, .Rectangle97, .Rectangle92, .Rectangle100, .Rectangle103, .Rectangle106, .Rectangle109, .Rectangle112, .Rectangle115, .Rectangle130 {
+    width: 627px;
+    height: 130px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #1B0859;
+    border-radius: 30px;
+  }
+  
+  .Rectangle90i, .Rectangle90h, .Rectangle90g, .Rectangle90f, .Rectangle90e, .Rectangle90d, .Rectangle90c, .Rectangle90b, .Rectangle90a, .Rectangle90 {
+    width: 301.69px;
+    height: 32px;
+    position: absolute;
+    background: white;
+    border-radius: 30px;
+    border: 2px black solid;
+    top: 50px;
+    right: 20px;
+    z-index: 1;
+  }
+  
+  .TarjetaMadre, .TarjetaDeVideo, .Procesador, .MemoriaRam, .Almacenamiento, .Disipador, .Gabinete, .FuenteDePoder, .Ventiladores, .Windows {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Orbitron;
+    font-weight: 600;
+    word-wrap: break-word;
+  }
+
+  .Procesadorb, .Mbb, .Graficab, .Caseb, .Psub{
+    left: 50px;
+  }
+
+  .Ramb, .Storageb, .Coolerb, .Fanb, .Wiwichusb{
+    right: 50px;
+  }
+  
+.Finalizarproceso{
+    top: 900px;
+    left: 35%;
+}
+
+.Procesadorb{
+    top: 50px;
+}
+
+.Mbb{
+    top: 200px;
+}
+
+.Graficab{
+    top: 350px;
+}
+
+.Caseb{
+    top: 500px;
+}
+
+.Psub{
+    top: 650px;
+}
+
+.Ramb{
+    top: 50px;
+}
+
+.Storageb{
+    top: 200px;
+}
+
+.Coolerb{
+    top: 350px;
+}
+
+.Fanb{
+    top: 500px;
+}
+
+.Wiwichusb{
+    top: 650px;
+}
+
+
+
+  .TarjetaMadre {
+    width: 254px;
+    height: 90px;
+    left: 25px;
+    top: 55px;
+  }
+  
+  .TarjetaDeVideo {
+    width: 254px;
+    height: 90px;
+    left: 25px;
+    top: 55px;
+  }
+  
+  .Procesador {
+    width: 254px;
+    height: 90px;
+    left: 25px;
+    top: 55px;
+  }
+  
+  .MemoriaRam {
+    width: 242px;
+    height: 90px;
+    left: 51px;
+    top: 55px;
+  }
+  
+  .Almacenamiento {
+    width: 235px;
+    height: 90px;
+    left: 43px;
+    top: 55px;
+  }
+  
+  .Disipador {
+    width: 242px;
+    height: 90px;
+    left: 51px;
+    top: 55px;
+  }
+  
+  .Gabinete {
+    width: 189px;
+    height: 90px;
+    left: 49px;
+    top: 55px;
+  }
+  
+  .FuenteDePoder {
+    width: 240px;
+    height: 90px;
+    left: 34px;
+    top: 55px;
+  }
+  
+  .Ventiladores {
+    width: 240px;
+    height: 90px;
+    left: 34px;
+    top: 55px;
+  }
+  
+  .Windows {
+    width: 177px;
+    height: 90px;
+    left: 60px;
+    top: 55px;
+  }
+  
+  .Rectangle140 {
+    width: 404px;
+    height: 369px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #D9D9D9;
+  }
+  
+  .Agregarcarro {
+    width: 297px;
+    height: 100px;
+    left: 53px;
+    top: 252px;
+    position: absolute;
+  }
+  
+  .Rectangle137 {
+    width: 292px;
+    height: 98px;
+    left: 5px;
+    top: 0px;
+    position: absolute;
+    background: #FF0000;
+    border-radius: 30px;
+  }
+  
+  .Carro {
+    width: 297px;
+    height: 100px;
+    left: 0px;
+    top: 35px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Orbitron;
+    font-weight: 600;
+    word-wrap: break-word;
+  }
+  
+  .Subtotalpc, .Enviopc, .Totalpc {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Orbitron;
+    font-weight: 600;
+    word-wrap: break-word;
+  }
+  
+  .Subtotalpc {
+    width: 311px;
+    height: 69px;
+    left: 59px;
+    top: 32px;
+  }
+  
+  .Enviopc {
+    width: 311px;
+    height: 69px;
+    left: 59px;
+    top: 101px;
+  }
+  
+  .Totalpc {
+    width: 311px;
+    height: 70px;
+    left: 59px;
+    top: 170px;
+  }
+
+
+
+
+
+
+
+
+  .Contservicio {
+    width: 1440px;
+    height: 865px;
+    position: relative;
+  }
+  
+  .Rectangle140a {
+    width: 1440px;
+    height: 865px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+  }
+  
+  .Rectangle136 {
+    width: 1291px;
+    height: 693px;
+    left: 74px;
+    top: 78px;
+    position: absolute;
+    background: #1B0859;
+    border-radius: 30px;
+  }
+  
+  .Servicio {
+    width: 1274px;
+    height: 49px;
+    left: 74px;
+    top: 94px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: Orbitron;
+    font-weight: 600;
+    word-wrap: break-word;
+  }
+  
+  .Textoservicio {
+    width: 1225px;
+    height: 500px;
+    left: 95px;
+    top: 161px;
+    position: absolute;
+    color: white;
+    font-size: 32px;
+    font-family: Orbitron;
+    font-weight: 600;
+    word-wrap: break-word;
+  }
+  
+  .Totalservicio {
+    width: 177px;
+    height: 70px;
+    left: 1143px;
+    top: 679px;
+    position: absolute;
+    color: white;
+    font-size: 32px;
+    font-family: Orbitron;
+    font-weight: 600;
+    word-wrap: break-word;
+  }
+
+
+
+
+
+
+  .PieDePagina {
+    width: 1440px;
+    height: 200px;
+    position: relative;
+  }
+  
+  .Rectangle15 {
+    width: 1440px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #04001A;
+  }
+  
+  .Copyright {
+    width: 734px;
+    height: 84px;
+    left: 338px;
+    top: 61px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Karma;
+    font-weight: 700;
+    word-wrap: break-word;
+  }
